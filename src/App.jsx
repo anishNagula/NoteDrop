@@ -7,8 +7,8 @@ const supabaseAnonKey = import.meta.env.VITE_SUPABASE_ANON_KEY;
 const supabase = createClient(supabaseUrl, supabaseAnonKey);
 
 function App() {
-  const [heading, setHeading] = useState('Give it a heading...');
-  const [content, setContent] = useState('Type the text to send...');
+  const [heading, setHeading] = useState('');
+  const [content, setContent] = useState('');
   const [shareLink, setShareLink] = useState('');
 
   const [post, setPost] = useState(null);
