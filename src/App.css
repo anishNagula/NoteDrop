@@ -1,0 +1,57 @@
+.body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    text-align: center;
+}
+
+h1 {
+    font-size: 7rem;
+    text-decoration: underline;
+    margin-bottom: 0;
+}
+
+h3 {
+    margin-top: 0;
+    font-size: 3rem;
+}
+
+.heading-cont, .text-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.heading-cont > label {
+    font-size: 1.5rem;
+}
+
+.heading-cont > input, textarea {
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid #f8f8f6;
+    padding: 0 20px;
+    border-radius: 10px;
+    margin-bottom: 3%;
+    font-size: 1rem;
+}
+
+.heading-cont > textarea {
+    padding: 20px;
+    margin-bottom: 20px !important;
+}
+
+button {
+    background-color: #027BFF;
+    border: none;
+    width: 10%;
+    height: 3rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 10px;
+}
