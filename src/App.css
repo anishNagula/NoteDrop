@@ -49,7 +49,8 @@ h3 {
 button {
     background-color: #027BFF;
     border: none;
-    width: 10%;
+    width: auto;
+    padding: 0 20px;
     height: 3rem;
     font-size: 1.5rem;
     font-weight: bold;
